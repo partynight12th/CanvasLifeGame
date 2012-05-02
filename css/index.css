@@ -1,0 +1,40 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	height:100%;
+}
+
+body{
+	height:100%;
+	font-size:62.5%;
+}
+
+#wrap{
+	height:100%;
+	width:100%;
+	margin:auto;
+	position:relative;
+	overflow:hidden;
+}
+
+#startbtn{
+	position:absolute;
+	top:70%;
+	left: 40%;
+	font-size:2em;
+	font-weight:bold;
+}
+
+.btn{
+	padding:1em 3em;
+	border-radius: 10px;        /* CSS3ëêàƒ */
+	-webkit-border-radius: 10px;    /* Safari,Google Chromeóp */
+	-moz-border-radius: 10px;   /* Firefoxóp */
+	border:1px solid #4d4d4d;
+	background: -webkit-gradient(linear, top, bottom, from(#FFCC66), to(#aa6611));
+	background: -moz-linear-gradient(top, #FFCC66, #ffffcc 10%, #ffcc66 25%, #AA6611 95%, #FFCC66 );
+	background: -webkit-linear-gradient(top, #FFCC66, #ffffcc 10%, #ffcc66 25%, #AA6611 95%, #FFCC66 );
+}
